@@ -14,6 +14,7 @@ verb1 = input("Verb: ")
 adverb1 = input("Adverb: ")
 location = input("Location: ")
 time = input("Amount of time: ")
+adjective2 = input("Adjective: ")
 noun2 = input("Noun: ")
 verb2 = input("Verb: ")
 adjective3 = input("Adjective: ")
@@ -23,5 +24,8 @@ print('It was a ' + adjective1 + ' day at school, and ' + maleTeacher +
 ' was preparing his ' + noun1 + ' for his ' + class1 + ' class. However, when class started, ' 
 + name + ' started to ' + verb1 + adverb1 + 
 ' , catching the teacher by surprise. "You are going to ' + location + ' for ' + time + 
-'' ++ '' ++ ++ ++ ++ ++ ++ ++ ++)
+', because you are' + adjective2 + '!" ' + maleTeacher + ' said. In response to this, ' 
++ name + ' grabbed the nearest ' + noun2 + ' and used it to ' + verb2 + '. Then, ' 
++ name + ' got up and bolted out of the room at maximum speed. "That was  ' + adjective3 + 
+', ' + maleTeacher + ' said" and then got back to ' + verb3 + ' for his class.')
 
