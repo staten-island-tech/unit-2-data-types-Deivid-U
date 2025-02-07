@@ -5,6 +5,7 @@
 # In response to this, (name) grabbed the nearest (noun 2) and used it to (verb2).
 #  Then, (name) got up, and bolted out of the room at maximum speed. "That was 
 # (adjective 3), (male teacher) said" and then got back to (verb 3) for his class.
+
 adjective1 = input("Adjective: ")
 maleTeacher = input("Male teacher: ")
 noun1 = input("Noun: ")
@@ -20,12 +21,5 @@ verb2 = input("Verb: ")
 adjective3 = input("Adjective: ")
 verb3 = input("Verb: ")
 
-print('It was a ' + adjective1 + ' day at school, and ' + maleTeacher + 
-' was preparing his ' + noun1 + ' for his ' + class1 + ' class. However, when class started, ' 
-+ name + ' started to ' + verb1 + adverb1 + 
-' , catching the teacher by surprise. "You are going to ' + location + ' for ' + time + 
-', because you are' + adjective2 + '!" ' + maleTeacher + ' said. In response to this, ' 
-+ name + ' grabbed the nearest ' + noun2 + ' and used it to ' + verb2 + '. Then, ' 
-+ name + ' got up and bolted out of the room at maximum speed. "That was  ' + adjective3 + 
-', ' + maleTeacher + ' said" and then got back to ' + verb3 + ' for his class.')
-
+Madlib = f'It was a {adjective1} day at school, and {maleTeacher} was preparing his {noun1} for his {class1} class. However, when class started, {name} started to {verb1} {adverb1}, catching {maleTeacher} by surprise. "You are going to {location} for {time} because you are {adjective2}!" {maleTeacher} said. In response to this, {name} grabbed the nearest {noun2} and used it to {verb2}. Then, {name} got up and bolted out of the room at maximum speed. "That was {adjective3}, {maleTeacher} said" and then got back to {verb3} for his class.'
+print(Madlib)
