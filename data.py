@@ -39,10 +39,11 @@ elif temp == 68:
 else:
     print('cold') """
 
-def oddOrEven(x):
+""" def oddOrEven(x):
     if x % 2 == 1:
         print('Odd')
     else:
         print('Even')
 
 oddOrEven(41)
+ """
